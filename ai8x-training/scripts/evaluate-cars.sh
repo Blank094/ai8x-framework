@@ -1,0 +1,2 @@
+#!/bin/sh
+python train.py --model ai85cdnet --dataset cars --confusion --evaluate --exp-load-weights-from ../ai8x-synthesis/trained/ai85-rodulph-qat8-q.pth.tar --save-sample 1 -8 --device MAX78000 "$@"
